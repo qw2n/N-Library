@@ -1,5 +1,4 @@
-local NLib 		= loadstring(game:HttpGet("https://raw.githubusercontent.com/qw2n/qw2n-s-Team/main/Library.lua"))()
-
+local NLib 		= loadstring(game:HttpGet("https://raw.githubusercontent.com/qw2n/N-Library/refs/heads/main/Library.Source.lua"))()
 
 local wind = NLib:MakeWindow({
     name = "Name Hub",
@@ -11,7 +10,6 @@ local wind = NLib:MakeWindow({
 local tab = wind:MakeTab({
     Text = "Tab 1"
 })
-
 
 local section = tab:MakeSection({
     Text = "Name Section",
@@ -117,4 +115,5 @@ section:MakeToggleColorPicker({
             print(v)
         end
     end
+
 })
